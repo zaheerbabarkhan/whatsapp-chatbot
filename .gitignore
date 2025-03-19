@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv (if using uv as package manager)
+.uv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.tox/
+coverage.*
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+test-results/
+
+# MyPy
+.mypy_cache/
+
+# Logs
+logs/
+*.log
+
+# Env files
+.env
+.env.*
+
+# Database / SQLite (if used)
+*.sqlite3
+*.db
+
+# Build artifacts
+dist/
+build/
+*.tar.gz
+*.whl
